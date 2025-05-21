@@ -44,8 +44,8 @@ GovernFun offers a comprehensive suite of features to support token creation, go
 
 ### 3.4 Staking System
 
-- **Staking Pool**: Users can stake tokens with a minimum of 100 tokens and a 1-day lockup period (`initialize_staking_pool`, `stake_tokens`).
-- **Rewards Distribution**: 30% of fees are distributed to a rewards vault, with options for stakers to claim or auto-compound rewards (`distribute_staking_rewards`, `claim_rewards`, `toggle_auto_compound`).
+- **Staking Pool**: Users can stake tokens with a minimum of 100 tokens and a 1-month lockup period (`initialize_staking_pool`, `stake_tokens`).
+- **Rewards Distribution**: 50% of fees are distributed to a rewards vault, with options for stakers to claim or auto-compound rewards (`distribute_staking_rewards`, `claim_rewards`, `toggle_auto_compound`).
 - **Unstaking**: Tokens can be unstaked after the minimum period, with rewards claimed or compounded (`unstake_tokens`).
 
 ### 3.5 Voting Power Boost
@@ -98,7 +98,7 @@ GovernFun aims to expand its feature set, including:
 - Full implementation of Polymarket-inspired voting with customizable reward structures.
 - Integration with additional off-chain storage solutions for metadata.
 - Enhanced analytics dashboards for token creators to monitor governance and staking activity.
-- **Token-Gated Features**: Development of token-gated functionalities to restrict access to specific platform features, content, or services based on token ownership or minimum holdings, enhancing community exclusivity and engagement.
+- Token-Gated Features: Development of token-gated functionalities to restrict access to specific platform features, content, or services based on token ownership or minimum holdings, enhancing community exclusivity and engagement.
 
 ## 8. Conclusion
 
