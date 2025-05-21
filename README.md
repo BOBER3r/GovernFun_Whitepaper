@@ -31,7 +31,7 @@ GovernFun offers a comprehensive suite of features to support token creation, go
 
 ### 3.2 Fee System
 
-- **1% Transaction Fee**: A 2.5% fee is applied to key actions, including registration, staking, voting, and proposal creation (`calculate_fee`).
+- **2.5% Transaction Fee**: A 2.5% fee is applied to key actions, including registration, staking, voting, and proposal creation (`calculate_fee`).
 - **Fee Distribution**: Fees are split with 50% allocated to a protocol fee collector and 50% directed to staking rewards (`calculate_protocol_fee`, `calculate_staking_reward`).
 - **Configurable Fee Collector**: Admins can set and update a program-wide fee collector address (`initialize_program_config`, `update_fee_collector`).
 
