@@ -31,8 +31,8 @@ GovernFun offers a comprehensive suite of features to support token creation, go
 
 ### 3.2 Fee System
 
-- **1% Transaction Fee**: A 1% fee is applied to key actions, including registration, staking, voting, and proposal creation (`calculate_fee`).
-- **Fee Distribution**: Fees are split with 70% allocated to a protocol fee collector and 30% directed to staking rewards (`calculate_protocol_fee`, `calculate_staking_reward`).
+- **1% Transaction Fee**: A 2.5% fee is applied to key actions, including registration, staking, voting, and proposal creation (`calculate_fee`).
+- **Fee Distribution**: Fees are split with 50% allocated to a protocol fee collector and 50% directed to staking rewards (`calculate_protocol_fee`, `calculate_staking_reward`).
 - **Configurable Fee Collector**: Admins can set and update a program-wide fee collector address (`initialize_program_config`, `update_fee_collector`).
 
 ### 3.3 Governance System
@@ -40,7 +40,7 @@ GovernFun offers a comprehensive suite of features to support token creation, go
 - **Governance Initialization**: Token creators can enable governance with customizable settings, such as voting periods, minimum vote thresholds, and proposal requirements (`initialize_governance`).
 - **Multi-Choice Proposals**: Users can create proposals with up to 10 choices, requiring minimum token holdings and a percentage of total supply (`create_multi_choice_proposal`).
 - **Proposal Execution**: Successful proposals meeting vote thresholds can trigger actions like updating settings or adding moderators (`execute_proposal`).
-- **Escrow for Voting**: Tokens are locked in escrow during voting, with winning escrow tokens transferred to the token creator and losing escrow tokens (after a 1% fee) sent to the staking pool (`distribute_winning_escrow`, `refund_losing_escrow`).
+- **Escrow for Voting**: Tokens are locked in escrow during voting, with winning escrow tokens transferred to the token creator and losing escrow tokens (after a 2.5% fee) sent to the staking pool (`distribute_winning_escrow`, `refund_losing_escrow`).
 
 ### 3.4 Staking System
 
